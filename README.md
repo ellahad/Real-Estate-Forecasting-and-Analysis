@@ -1,21 +1,25 @@
-# Real-Estate-Forecasting-and-Analysis
-image
-Real Estate Analysis And Forecasting
-Objectives of the study
-The real estate market is always transforming, affected by several factors such as the economy and demographic trends.
+# Phase-4-Project
+![image](https://github.com/ellahad/ellahad-Phase-4-Project/assets/92978069/f355722e-a541-4b02-b57b-fd4db2088455)
+# Real Estate Analysis And Forecasting
 
-Understanding the trends in property values and rental rates is key for investors, developers, and policymakers to make smart decisions.
+## Objectives of the study
+- The real estate market is always transforming, affected by several factors such as the economy and demographic trends.
+  
+- Understanding the trends in property values and rental rates is key for investors, developers, and policymakers to make smart decisions.
+  
+- We aim to give pleasant, confident, and educated analysis and projections regarding the real estate market in the United States, allowing everyone involved to easily navigate the housing market.
 
-We aim to give pleasant, confident, and educated analysis and projections regarding the real estate market in the United States, allowing everyone involved to easily navigate the housing market.
+## Problem Statement:
+- The real estate investment firm has tasked us, as consultants, with identifying the top 5 zip codes for investment opportunities. 
 
-Problem Statement:
-The real estate investment firm has tasked us, as consultants, with identifying the top 5 zip codes for investment opportunities.
+- In this context, "best" is defined primarily in terms of profit margins. The recommendation should prioritize zip codes with the highest potential for profitability, based on historical real estate price data.
 
-In this context, "best" is defined primarily in terms of profit margins. The recommendation should prioritize zip codes with the highest potential for profitability, based on historical real estate price data.
+## Main Objectives:
 
-Main Objectives:
-The primary objective of this project is to utilize time series modeling techniques to identify the top 5 zip codes for investment opportunities for a fictional real estate investment firm. The focus will predominantly be on maximizing profit margins.
-Key Deliverables:
+- The primary objective of this project is to utilize time series modeling techniques to identify the top 5 zip codes for investment opportunities for a fictional real estate investment firm. The focus will predominantly be on maximizing profit margins.
+
+## Key Deliverables:
+
 1). Identification of the top 5 zip codes with the highest potential for profit margins.
 
 2). Time series models forecasting real estate prices for the selected zip codes.
@@ -26,34 +30,36 @@ Key Deliverables:
 
 5). Presentation of findings through clear visualizations and a compelling narrative to facilitate decision-making by stakeholders.
 
-Dataset Overview
-This project uses a dataset obtained from Kaggle. The dataset was originally web-extracted from the Zillow website(Filter == USA housing).
+## Dataset Overview 
+- This project uses a dataset obtained from Kaggle. The dataset was originally web-extracted from the Zillow website(Filter == USA housing).
 
-The dataset contains information on various regions, cities, and states along with their property values over time.
+- The dataset contains information on various regions, cities, and states along with their property values over time.
 
-By examining factors such as regional demographics and property characteristics, we seek to understand what influences property values in different areas.
+- By examining factors such as regional demographics and property characteristics, we seek to understand what influences property values in different areas.
 
-The target variable is in the price column.
+- The target variable is in the price column.
 
-The dataset can be downloaded directly from Kaggle or this repo in the Data.csv file.
+- The dataset can be downloaded directly from Kaggle  or this repo in the Data.csv file.
 
-Data Analysis And Time-series Forecasting
-Data preparation, feature engineering, and data analysis were performed on the dataset.
+## Data Analysis And Time-series Forecasting
+- Data preparation, feature engineering, and data analysis were performed on the dataset.
 
-Time series forecasting was then performed on the dataset to obtain the top 5 zip codes with the highest RIO.
+- Time series forecasting was then performed on the dataset to obtain the top 5 zip codes with the highest RIO.
 
-From the forecasting, the following visualized zip codes were found to be the best in terms of investment opportunity.
+- From the forecasting, the following visualized zip codes were found to be the best in terms of investment opportunity.
 
-image
+![image](https://github.com/ellahad/ellahad-Phase-4-Project/assets/92978069/e5941feb-af15-4f35-8dcb-c660f49aaf49)
 
-Conclusions.
-Opportunity, Zipcode 94804 offers the highest ROI forecast.
+## Conclusions.
 
-Market Outlook: Positive price forecasts in all zip codes indicate favorable market conditions.
+- Opportunity, Zipcode 94804 offers the highest ROI forecast.
 
-Caution: Avoid Zipcode 85035 due to negative ROI.
+- Market Outlook: Positive price forecasts in all zip codes indicate favorable market conditions.
 
-Reccommendations.
+- Caution: Avoid Zipcode 85035 due to negative ROI.
+
+## Reccommendations.
+
 1). Consider prioritizing investment in Zipcode 94804 due to its highest forecasted ROI among the top five zip codes.
 
 2). While all zip codes show promising forecasted prices and positive trends, exercise caution in Zipcode 85035, which lacks a positive ROI.
